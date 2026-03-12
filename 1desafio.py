@@ -17,19 +17,19 @@ Acima de 50%: "A empresa excedeu a meta de diversidade.
 
 print("=== Cálculo de Diversidade na Liderança ===")
 
-# 1. O usuário informa o total de líderes
+# O usuário informa o total de líderes
 total_lideres = int(input("Digite o TOTAL de líderes da empresa: "))
 
-# 2. O usuário informa quantas líderes são mulheres
+# O usuário informa quantas líderes são mulheres
 lideres_mulheres = int(input("Digite o número de líderes MULHERES: "))
 
-# 3. Calculando o percentual de mulheres
+# Calculando o percentual de mulheres
 percentual = (lideres_mulheres / total_lideres) * 100
 
-# 4. Mostrando o valor calculado
+# Mostrando o valor calculado
 print(f"\nPercentual de mulheres na liderança: {round(percentual, 1)}%")
 
-# critérios do desafio
+# critérios 
 if percentual < 30:
     print("A empresa está abaixo da meta de diversidade.")
 elif percentual <= 50:

@@ -29,11 +29,10 @@ hoje = date.today()
 #    O resultado é um objeto 'timedelta'; para obter os dias inteiros, usamos .days
 dias_restantes = (data_entrega - hoje).days
 
-#  Mostramos o resultado de forma amigável
+# resultado
 if dias_restantes > 0:
     print(f"Faltam {dias_restantes} dia(s) para a entrega.")
 elif dias_restantes == 0:
     print("A entrega é hoje!")
 else:
-    # dias_restantes é negativo -> prazo já passou
     print(f"O prazo já passou há {abs(dias_restantes)} dia(s).")

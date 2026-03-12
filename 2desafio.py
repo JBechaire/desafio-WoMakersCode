@@ -20,7 +20,7 @@ senha_correta = "Code@123"
 usuario_digitado = input("Digite o usuário: ")
 senha_digitada = input("Digite a senha: ")
 
-# Comparar o que foi digitado com o que é correto
+# Compara o que foi digitado com o que é correto
 # '==' para verificar se os textos são exatamente iguais
 if usuario_digitado == usuario_correto and senha_digitada == senha_correta:
     # Se as duas comparações forem verdadeiras, o acesso é permitido

@@ -34,7 +34,7 @@ departamento = "Engenharia de Dados"
 soma_salarios = 0
 quantidade = 0
 
-# Percorrer (loop) cada funcionária da lista
+# Percorre (loop) cada funcionária da lista
 for func in funcionarias:
     # Verifica se o departamento da funcionária é o que queremos
     if func["departamento"] == departamento:

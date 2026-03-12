@@ -14,7 +14,7 @@ lista_numeros = [5, 2, 8, 5, 3, 2, 9]
 
 lista_sem_duplicados = []
 
-# Percorremos cada número da lista original
+# Percorre cada número da lista original
 for numero in lista_numeros:
     # Se o número AINDA NÃO está na nova lista, adicionamos
     if numero not in lista_sem_duplicados:
